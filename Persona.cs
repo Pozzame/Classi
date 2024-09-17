@@ -4,7 +4,7 @@ class Persona
     private string? cognome;
     private int age;
 
-    public string Nome { get { return nome!; } set { Nome = value; } }
+    public string Nome { get { return nome!; } set { nome = value; } }
     public string Cognome { get { return cognome!; } set { cognome = value; } }
     public int Age { get { return age; } set { age = value; } }
 
