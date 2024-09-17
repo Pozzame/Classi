@@ -6,4 +6,9 @@ class Studente : Persona
     {
         this.corso = corso;
     }
+
+    public void StampaCorso()
+    {
+        Console.WriteLine("Corso: " + corso);
+    }
 }
