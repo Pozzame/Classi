@@ -5,13 +5,15 @@ class Dado
     private Random rand = new Random();
     private int facce;
 
-    public Dado( int facce = 4 )
+    public Dado(int facce = 4)
     {
-        this.facce = facce;
+        this.Facce = facce;
     }
+
+    public int Facce { get { return facce; } set { facce = value; } }
 
     public int Lancia()
     {
-        return rand.Next(0,facce+1);
+        return rand.Next(1, Facce + 1);
     }
 }

@@ -9,7 +9,8 @@
         s.StampaCorso();
 
         Dado d1 = new Dado();
-        Dado d2 = new Dado(12);
+        Dado d2 = new Dado();
+        d2.Facce= 12;
 
         int n1 = d1.Lancia();
         int n2 = d2.Lancia();
