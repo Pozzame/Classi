@@ -18,8 +18,7 @@
         Console.WriteLine("Dado 1: " + n1);
         Console.WriteLine("Dado 2: " + n2);
 
-        Persona c;
-        c=s;
+        Persona c = new Studente("Pino", "Ciuccio", 33, "Lettere");
         Persona[] persone = [p, s, c];
         foreach (Persona persona in persone) persona.Parla();
     }
