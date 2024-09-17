@@ -11,4 +11,9 @@ class Studente : Persona
     {
         Console.WriteLine("Corso: " + corso);
     }
+
+    public override void Parla()
+    {
+        Console.WriteLine("I Love C#!!");
+    }
 }

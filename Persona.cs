@@ -21,4 +21,9 @@ class Persona
         Console.WriteLine($"Cognome: {Cognome}");
         Console.WriteLine($"Età: {Age}");
     }
+
+    public virtual void Parla()
+    {
+        Console.WriteLine("Ciao!");
+    }
 }
