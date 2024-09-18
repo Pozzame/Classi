@@ -15,7 +15,7 @@ class Persona
         this.Age = age;
     }
 
-    public void Stampa()
+    public virtual void Stampa()
     {
         Console.WriteLine($"Nome: {Nome}");
         Console.WriteLine($"Cognome: {Cognome}");

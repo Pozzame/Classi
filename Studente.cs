@@ -7,8 +7,9 @@ class Studente : Persona
         this.corso = corso;
     }
 
-    public void StampaCorso()
+    public override void Stampa()
     {
+        base.Stampa();
         Console.WriteLine("Corso: " + corso);
     }
 
