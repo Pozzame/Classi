@@ -14,13 +14,17 @@
         Console.WriteLine("Dado 2: " + n2);
         */
 
+/*
         Persona p = new Persona("Mario", "Rossi", 30);
         p.Stampa();
         Studente s = new Studente("Matteo", "Bianchi", 43, "Informatica");
         s.Stampa();
-        Persona c = new Studente("Pino", "Ciuccio", 33, "Lettere");
+        Professore c = new Professore("Pino", "Ciuccio", 33, "Lettere");
         
         Persona[] persone = [p, s, c];
         foreach (Persona persona in persone) persona.Parla();
+        */
+        List<Animale> zoo = [new Mucca(), new Maiale(), new Capra(),];
+        foreach (Animale animale in zoo) animale.Parla();
     }
 }
